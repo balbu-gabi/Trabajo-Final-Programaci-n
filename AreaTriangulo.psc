@@ -3,17 +3,17 @@ Algoritmo AreaTriangulo
     Definir base, altura, area Como Real
 	
     
-    Escribir "Ingrese la base del triángulo en centimetros: "
+    Escribir "Ingrese la base del triÃ¡ngulo en centimetros: "  //medida de la base del triangulo
     Leer base
 	
     
-    Escribir "Ingrese la altura del triángulo en centimetros: "
+    Escribir "Ingrese la altura del triÃ¡ngulo en centimetros: " //medida de la altura del triangulo
     Leer altura
 	
     
-    area <- (base * altura) / 2
+    area <- (base * altura) / 2  //ecuacion matematica
 	
    
-    Escribir "El área del triángulo es: ", area , " centimetros"
+    Escribir "El Ã¡rea del triÃ¡ngulo es: ", area , " centimetros"  //resultado de la ecuacion
 	
 FinAlgoritmo
