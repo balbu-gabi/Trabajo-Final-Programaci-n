@@ -10,10 +10,10 @@ Proceso Adivinar
         Leer intento
 		
         Si intento < numeroSecreto Entonces
-            Escribir "Demasiado bajo. Intenta con un número más alto."  //Número por debajo seleccionado al adivinar
+            Escribir "Demasiado bajo. Intenta con un número más alto."  //Numero por debajo seleccionado al adivinar
         Sino
             Si intento > numeroSecreto Entonces
-                Escribir "Demasiado alto. Intenta con un número más bajo."  //Número por encima seleccionado al adivinar
+                Escribir "Demasiado alto. Intenta con un número más bajo."  //Numero por encima seleccionado al adivinar
             Sino
                 Escribir "¡Correcto! Adivinaste el número."
             FinSi
