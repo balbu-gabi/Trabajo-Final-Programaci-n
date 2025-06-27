@@ -1,14 +1,15 @@
 Algoritmo Calculadora
+// Definici贸n de variables num茅ricas
     Definir A, B, resultado Como Real
     Definir opcion Como Entero
-	
-    Escribir "Ingrese el primer n鷐ero (A):"
+// Solicitar al usuario que ingrese numeros
+    Escribir "Ingrese el primer n煤mero (A):"
     Leer A
 	
-    Escribir "Ingrese el segundo n鷐ero (B):"
+    Escribir "Ingrese el segundo n煤mero (B):"
     Leer B
-	
-    Escribir "Seleccione la operaci髇 a realizar:"
+  // Mostrar el men煤 de operaciones	
+    Escribir "Seleccione la operaci贸n a realizar:"
     Escribir "1 - Sumar"
     Escribir "2 - Restar"
     Escribir "3 - Multiplicar"
@@ -24,15 +25,15 @@ Algoritmo Calculadora
             Escribir "La resta es: ", resultado
         3:
             resultado = A * B
-            Escribir "La multiplicaci髇 es: ", resultado
+            Escribir "La multiplicaci贸n es: ", resultado
         4:
             Si B = 0 Entonces
                 Escribir "Error: No se puede dividir por cero."
             Sino
                 resultado = A / B
-                Escribir "La divisi髇 es: ", resultado
+                Escribir "La divisi贸n es: ", resultado
 			FinSi
         De Otro Modo:
-            Escribir "Opci髇 no v醠ida."
+            Escribir "Opci贸n no v谩lida."
     FinSegun
 FinAlgoritmo
