@@ -3,7 +3,7 @@
 - CARLOS LUGO
 - GABRIEL BALBUENA
 - SANTIAGO ARIEL SAUCO
-- BRIAN EZEQUIEL MESCHER
+- BRYAN EZEQUIEL MESCHER
 ## Carrera
 Tecnicatura Universitaria en Telecomunicaciones
 ## Materia
