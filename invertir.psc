@@ -1,8 +1,8 @@
 Algoritmo invertir
-    Definir frase, invertida Como Cadena
+    Definir frase, invertida Como Cadena  
     Definir i, largo Como Entero
 	
-    Escribir "Ingrese una palabra o frase:"
+    Escribir "Ingrese una palabra o frase:"   //solicita al usuario una palabra o frase
     Leer frase
 	
     invertida <- ""
@@ -12,5 +12,5 @@ Algoritmo invertir
         invertida <- invertida + SubCadena(frase, i, i)
     FinPara
 	
-    Escribir "Frase invertida: " + invertida
+    Escribir "Frase invertida: " + invertida   //devuelve la frase escrita por el usuario a la inversa
 FinAlgoritmo
