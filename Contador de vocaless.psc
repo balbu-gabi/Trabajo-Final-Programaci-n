@@ -2,7 +2,7 @@ Algoritmo contarVocales
     Definir frase Como Cadena
     Definir i, largo Como Entero
     Definir caracter Como Caracter
-    Definir totalVocales, cantA, cantE, cantI, cantO, cantU Como Entero
+    Definir totalVocales, cantA, cantE, cantI, cantO, cantU Como Entero //Vocales a contar en palabra u frase
 	
     // Inicializamos contadores
     totalVocales <- 0
@@ -21,31 +21,31 @@ Algoritmo contarVocales
         caracter <- SubCadena(frase, i, i)
         caracter <- Minusculas(caracter)
 		
-        Segun caracter Hacer
-            "a", "á":
+        Segun caracter Hacer  //por debajo se agregan que cuente las vocales con acento
+            "a", "Ã¡":
                 cantA <- cantA + 1
                 totalVocales <- totalVocales + 1
-            "e", "é":
+            "e", "Ã©":
                 cantE <- cantE + 1
                 totalVocales <- totalVocales + 1
-            "i", "í":
+            "i", "Ã­":
                 cantI <- cantI + 1
                 totalVocales <- totalVocales + 1
-            "o", "ó":
+            "o", "Ã³":
                 cantO <- cantO + 1
                 totalVocales <- totalVocales + 1
-            "u", "ú":
+            "u", "Ãº":
                 cantU <- cantU + 1
                 totalVocales <- totalVocales + 1
         FinSegun
     FinPara
 	
-    // Mostramos resultados
+    // Mostramos resultados   //los resultados incluyen las vocales con y sin asento
     Escribir "Cantidad total de vocales: " + ConvertirATexto(totalVocales)
-    Escribir "Cantidad de A (incluye á): " + ConvertirATexto(cantA)
-    Escribir "Cantidad de E (incluye é): " + ConvertirATexto(cantE)
-    Escribir "Cantidad de I (incluye í): " + ConvertirATexto(cantI)
-    Escribir "Cantidad de O (incluye ó): " + ConvertirATexto(cantO)
-    Escribir "Cantidad de U (incluye ú): " + ConvertirATexto(cantU)
+    Escribir "Cantidad de A (incluye Ã¡): " + ConvertirATexto(cantA)
+    Escribir "Cantidad de E (incluye Ã©): " + ConvertirATexto(cantE)
+    Escribir "Cantidad de I (incluye Ã­): " + ConvertirATexto(cantI)
+    Escribir "Cantidad de O (incluye Ã³): " + ConvertirATexto(cantO)
+    Escribir "Cantidad de U (incluye Ãº): " + ConvertirATexto(cantU)
 FinAlgoritmo
 
