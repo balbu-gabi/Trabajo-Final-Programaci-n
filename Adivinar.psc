@@ -1,21 +1,21 @@
 Proceso Adivinar
     Definir numeroSecreto, intento Como Entero
 	
-    numeroSecreto <- Azar(25) 
+    numeroSecreto <- Azar(25) //Esta linea corresponde a que el nÃºmero mÃ¡ximo sea hasta 25
 	
-    Escribir "Adivina el número secreto entre 0 y 25"
+    Escribir "Adivina el nÃºmero secreto entre 0 y 25"  //Se muestra en la pantalla
 	
     Repetir
-        Escribir "¿Cuál es tu intento?"
+        Escribir "Â¿CuÃ¡l es tu intento?"
         Leer intento
 		
         Si intento < numeroSecreto Entonces
-            Escribir "Demasiado bajo. Intenta con un número más alto."
+            Escribir "Demasiado bajo. Intenta con un nÃºmero mÃ¡s alto."  //NÃºmero por debajo seleccionado al adivinar
         Sino
             Si intento > numeroSecreto Entonces
-                Escribir "Demasiado alto. Intenta con un número más bajo."
+                Escribir "Demasiado alto. Intenta con un nÃºmero mÃ¡s bajo."  //NÃºmero por encima seleccionado al adivinar
             Sino
-                Escribir "¡Correcto! Adivinaste el número."
+                Escribir "Â¡Correcto! Adivinaste el nÃºmero."
             FinSi
         FinSi
     Hasta Que intento = numeroSecreto
