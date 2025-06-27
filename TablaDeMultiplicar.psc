@@ -1,12 +1,13 @@
 Algoritmo TablaDeMultiplicar
-	
+    //Declaracion de Variables
     Definir numero, i Como Entero
-	
-    Escribir "Ingrese el número para generar la tabla de multiplicar: "
+    //Pedir a usuario que ingrese numeros
+    Escribir "Ingrese el nÃºmero para generar la tabla de multiplicar: "
     Leer numero
 	
     Escribir "Tabla de multiplicar del ", numero, ":"
     Para i <- 1 Hasta 20 Hacer
+         //mostrar operacion y resultado
         Escribir numero, " x ", i, " = ", numero * i
     FinPara
 	
