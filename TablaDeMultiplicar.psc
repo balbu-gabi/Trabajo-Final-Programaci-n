@@ -6,7 +6,7 @@ Algoritmo TablaDeMultiplicar
     Leer numero
 	
     Escribir "Tabla de multiplicar del ", numero, ":"
-    Para i <- 1 Hasta 20 Hacer
+    Para i <- 1 Hasta 20 Hacer //se hace solamente hasta 20 por pedido para el tp
          //mostrar operacion y resultado
         Escribir numero, " x ", i, " = ", numero * i
     FinPara
