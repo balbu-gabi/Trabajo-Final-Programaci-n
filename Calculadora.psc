@@ -1,5 +1,5 @@
 Algoritmo Calculadora
-// Definición de variables numéricas
+// Definición de variables
     Definir A, B, resultado Como Real
     Definir opcion Como Entero
 // Solicitar al usuario que ingrese numeros
